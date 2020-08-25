@@ -6,7 +6,7 @@ package restDalVO.operations;
  */
 public class Queryconstants {
 
-	public static String getUsers = "SELECT * from user_mst order by user_name desc ";
+	public static String getUsers = "SELECT * from user_mst order by user_name asc ";
 	public static  String getUserByName="select user_name from user_mst where user_name=?";
 	public static String createUser="insert into user_mst(user_name, created_on) values (?,?)";
 	public static String updateIouDetails="insert into user_iou_dtl(lender,borrower,amount,created_on) values (?,?,?,?)";
