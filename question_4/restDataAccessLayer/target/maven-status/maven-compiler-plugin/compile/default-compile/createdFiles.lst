@@ -1,0 +1,5 @@
+restDalVO\operations\DBOperations.class
+restDalVO\UserDalImpl.class
+restDalVO\operations\Queryconstants.class
+restDalVO\operations\Utility.class
+restDalVO\UserDal.class

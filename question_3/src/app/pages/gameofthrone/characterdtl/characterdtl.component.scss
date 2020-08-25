@@ -1,0 +1,47 @@
+.step{
+    .step-content{
+        background: #b9b9b9;
+        height: 40px;
+        font-size: 1.5rem;
+        .step-name{
+            font-size: 14px;
+        }
+        &.confirmed{
+            background-color: #4BAE4F !important;
+        }
+    }
+}
+
+.confirmed-content{
+    .fa-check{
+        font-size: 120px;
+    }
+    .fa-print{
+        font-size: 24px;
+    }
+}
+@media print {
+    body * {
+        visibility: hidden;
+        //transform: scale(.7);
+    }
+    #section-to-print, #section-to-print * {
+        visibility: visible;
+
+    }
+    #section-to-print {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    //table {page-break-inside: avoid;}
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 200px;
+    overflow: auto;
+}
+.table-wrapper-scroll-y {
+    display: block;
+}
